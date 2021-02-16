@@ -1,0 +1,33 @@
+table{
+    text-transform: uppercase;
+    width: 700px;
+    height: 300px;
+    border-collapse: collapse;
+    border-spacing: .5em;
+    border: 1px solid tomato;
+}
+
+th {
+    padding: 15px;
+    background-color: #46A049;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+td {
+    padding: 10px 0;
+}
+th:nth-child(2) {
+    padding-left: 0;
+}
+td {
+    text-align: center;
+}
+th:nth-child(2), td:nth-child(2) {
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+tr:nth-child(odd) {
+    background-color: #fff;
+}
